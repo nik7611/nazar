@@ -1,0 +1,1 @@
+document.write('<a href="http://banner.kiev.ua/cgi-bin/bg.cgi\x3F53502&887827978&0&0&89710&http://lib.misto.kiev.ua/HISTORY/INKWIZICIA/inquiz2.txt" target=_blank>Ваша реклама в Интернет. </a>');

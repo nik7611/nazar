@@ -1,0 +1,340 @@
+/* Main global styles */
+html, body {width:100%; height:100%; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; color:#000000;background:#FFFFFF;}
+/*a {color:#CC3333; text-decoration:none;}*/
+a {text-decoration:none;}/*color:#CC3333; */
+a:hover {color:red; text-decoration:underline;}
+/* div.header_scripts{position:absolute; top:-1000px; left:-1000px;} */
+div.header_scripts {display:none;}
+div.layoutholder {font-size:medium; display:block; max-width:1270px; min-width:1000px; width:expression((w = (document.documentElement.clientWidth || document.body.clientWidth)) > 1260 ? '1260px' : (w > 980 ? 'auto' : '980px')); height:100%;}
+
+/* Upper banner zone styles */
+table.up_banner {width:100%; vertical-align:top; text-align:center;}
+div.up_banner{padding-bottom:2px; background-color:#000000; text-align:center;}
+
+/* Header zone styles */
+td.upper_menu_zone {font-size:83%; height:30px; line-height:30px;}
+td.upper_menu_zone table {width:100%;}
+td.upper_menu_zone table td {padding:0px; text-align:left; vertical-align:middle; height:30px; line-height:30px;}
+td.upper_menu_zone table td a {padding:5px 0px 5px 30px; background-position:left center; background-repeat:no-repeat; text-decoration:underline;}
+td.upper_menu_zone table td a:hover {color:red; text-decoration:none;}
+td.map_zone {width:240px; height:130px; background:#FFFFFF; vertical-align:bottom; text-align:left;}
+
+tr.tiser_zone {background:#F8F8E8; font-size:70%;}
+tr.tiser_zone td {vertical-align:middle; height:70px; line-height:70px;}
+tr.tiser_zone td.logo_cell {text-align:left; width:125px;}
+tr.tiser_zone td.tiser_cell {text-align:center;}
+
+td.context_menu {margin-top:2px; height:30px; line-height:30px;}
+td.context_menu table {width:100%;}
+td.context_menu table td {vertical-align:middle; text-align:center; color:#FFFFFF;}
+td.context_menu table td a {color:white; text-decoration:none;}
+td.context_menu table td a:hover {color:white; text-decoration:underline;}
+td.context_menu table td.title {width:118px; background:#484848; font-family:Arial, sans-serif; color:white; text-align:left;}
+td.context_menu table td.title h3 {margin:0px 0px 0px 5px; font-weight:bold; padding:0px 0px 0px 30px; font-size:17px; background-position:left center; background-repeat:no-repeat;}
+td.context_menu table td.title h3 a {color:white; text-decoration:none;}
+td.context_menu table td.title h3 a:hover {color:white; text-decoration:underline;}
+td.context_menu table td.item {font-size:11px; text-transform:uppercase; background-color:#A02226; padding:0px 10px 0px 10px;}
+td.context_menu table td.first {font-size:11px; text-transform:uppercase; background-color:#A02226; padding:0px 10px 0px 30px; background-image:url('/img/srv/arr_context.gif'); background-position: left center; background-repeat: no-repeat;}
+td.context_menu table td.active {background-color:#484848;}
+td.context_menu table td.div {width:2px; background-color:white;}
+td.context_menu table tr.telegraph td.first a {padding:5px 0px 5px 22px; color:#FFFFFF; text-decoration:none; background-position:left center; background-repeat:no-repeat;}
+td.context_menu table tr.telegraph td.first a:hover {text-decoration:underline;}
+td.context_menu table tr.telegraph td.item a {padding:5px 0px 5px 22px; color:#FFFFFF; text-decoration:none; background-position:left center; background-repeat:no-repeat;}
+td.context_menu table tr.telegraph td.item a:hover {text-decoration:underline;}
+
+/* Left column styles */
+td.left_column {background-color:#F8F8E8; width:125px; overflow:hidden; vertical-align:top; text-align:left; margin:0px; padding:0px;}
+td.left_column div.column_holder {width:125px; overflow:hidden;}
+
+/* Search form styles */
+div.search {margin:5px 0px 5px 7px;}
+div.search table {width:100%;}
+div.search input.query {font-family:Tahoma,sans-serif; font-size:11px; border:1px solid black; color:#333333; width:85px;}
+div.search td {vertical-align:middle; text-align:left;}
+div.search td.button {text-align:center; width:100%;}
+
+/* Authorization block styles */
+
+/* Last issue block styles */
+div.last_issue {padding:7px; background-color:#FFFFFF; font-size:13px;}
+div.last_issue table {border:0;}
+div.last_issue table td.title {padding-bottom:5px; font-weight:bold;}
+div.last_issue table td.links {padding-top:5px;}
+
+/* Encyclopedia alphabet styles */
+div.alphabet {margin:7px 10px 0px 7px; font-family:"Courier New", Courier, monospace; font-weight:bold;}
+div.alphabet table {width:100%;}
+div.alphabet table td {text-align:left; vertical-align:middle; font-size:13px;}
+div.alphabet table td a {text-decoration:none; border-left:3px #F8F8E8 solid; border-right:3px #F8F8E8 solid;}
+div.alphabet table td a:visited {text-decoration:none;}
+div.alphabet table td a:hover {text-decoration:none; background:#CC3333; color:#FFFFFF; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+div.alphabet table td.title {font-family:Arial, Helvetica, sans-serif; padding-left:0px; padding-bottom:5px; font-size:13px;}
+
+/* Questions rotation block */
+div.questions {padding:7px; background:#FFFFFF;}
+div.questions b {font-size:13px;}
+div.questions div.list {padding-top:5px; font-size:11px;}
+div.questions div.list p {padding:0px 0px 5px 0px; margin:0px;}
+div.questions div.list p a {text-decoration:none;}
+div.questions div.list p a:hover {text-decoration:underline;}
+div.questions a.link {font-size:12px;}
+
+/* Photobank block styles */
+
+/* Guides block styles */
+div.guides {padding:7px; background:#FFFFFF; font-size:13px;}
+div.guides div {margin-top:10px;}
+
+/* Chronograph block styles */
+div.chronograph {margin:7px 10px 0px 7px; font-weight:bold;}
+div.chronograph table {width:100%;}
+div.chronograph table td {text-align:left; vertical-align:middle; font-size:12px;}
+div.chronograph table td a {text-decoration:none; border-left:3px #F8F8E8 solid; border-right:3px #F8F8E8 solid;}
+div.chronograph table td a:visited {text-decoration:none;}
+div.chronograph table td a:hover {text-decoration:none; background:#CC3333; color:#FFFFFF; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+div.chronograph table td a.arrow:hover {text-decoration:none; background:#F8F8E8; color:#CC3333; border-left:3px #F8F8E8 solid; border-right:3px #F8F8E8 solid;}
+div.chronograph table td.title {padding-bottom:5px; padding-left:0px; font-size:13px;}
+div.chronograph table td.month {font-weight:normal; text-align:center; padding-top:5px; font-size:12px;}
+div.chronograph table td.current a {color:#FFFFFF; background:#CC3333; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+div.events {margin:15px 10px 0px 10px;}
+div.events b {font-size:14px;}
+div.events p {margin:5px 0px 15px 0px; padding:0; font-size:11px;}
+div.events p a {text-decoration:none;}
+div.events p a:visited {text-decoration:none;}
+div.events p a:hover {text-decoration:underline;}
+
+/* "Polden" almanach block styles */
+div.polden {padding:7px; background-color:#FFFFFF; font-size:13px;}
+div.polden table {border:0; width:100%;}
+div.polden table td {padding-bottom:5px;}
+div.polden table td.title {padding-bottom:5px; font-weight:bold;}
+
+/* News block styles */
+div.news {padding:7px; background-color:#F8F8E8;}
+div.news table td {padding-bottom:10px; font-size:11px;}
+div.news table td a {text-decoration:none;}
+div.news table td a:hover {text-decoration:underline;}
+div.news table td.date {font-weight:bold; color:#666666; font-size:12px; padding-bottom:0px;}
+div.news table td.title {padding-bottom:5px; font-weight:bold; font-size:13px;}
+div.news table td.link {font-size:13px;}
+div.news table td.link a {text-decoration:underline;}
+
+/* Day-photo block styles */
+div.day_photo {padding:0px; background-color:#F8F8E8;}
+div.day_photo table {width:125px;}
+div.day_photo table th {padding:5px 0px 5px 7px; font-weight:bold; font-size:13px; text-align:left;}
+div.day_photo table td {padding:7px; background-color:#FFFFFF; vertical-align:middle; font-size:11px; border:1px solid #CCCCCC;}
+div.day_photo table td.frame {background:#CCCCCC; height:125px; text-align:center; padding:0;}
+div.day_photo table td.title a {text-decoration:none;}
+div.day_photo table td.title a:hover {text-decoration:underline;}
+
+/* =========================== Content zone styles =========================== */
+td.central_column {text-align:left; vertical-align:top; padding:20px;}
+div.content_zone h1 {font-size:126%; margin:0px 0px 10px; padding:0px;}
+div.content_zone h2.second_title {font-size:108%; margin:10px 0px 10px; padding:0px;}
+div.content_zone h2.subtitle {font-size:108%; margin:10px 0px 10px; padding:0px; color:#999;}
+
+div.content_zone div.path {margin:-5px 0px 10px; font-size:83%;}
+div.content_zone div.path a {color:black; text-decoration:underline;}
+div.content_zone div.path a:hover {color:red; text-decoration:none;}
+
+div.content_zone div.content {font-size:89%; width:100%;}
+div.content_zone div.content p {padding:0px !important; margin:0px 0px 20px 0px !important;}
+div.content_zone div.content h2 {padding:0px !important; margin:0px 0px 10px 0px !important; font-size:121% !important;}
+div.content_zone div.content h4 {padding:0px !important; margin:0px 0px 10px 0px !important; font-size:121% !important;}
+div.content_zone div.content h5 {padding:0px !important; margin:0px 0px 10px 0px !important; font-size:85% !important;}
+div.content_zone div.content h6 {padding:0px !important; margin:0px 0px 20px 0px !important; font-size:79% !important; font-weight:normal !important; color:#484848 !important;}
+div.content_zone div.content table.freshnum td {padding-right:10px; text-align:left; vertical-align:top;}
+div.content_zone div.content table.archive {width:100%; padding:0; margin:0; border:0; border-collapse:collapse;}
+div.content_zone div.content table.archive td {font-weight:bold; padding:5px; border:#FFFFFF 2px solid; background:#F8F8E8; text-align:center;}
+div.content_zone div.content table.archive td.active {background:#CC3333; color:#FFFFFF;}
+div.content_zone div.content table.arch_year {width:100%;}
+div.content_zone div.content table.arch_year td {width:33%; text-align:left; vertical-align:top; padding-bottom:30px;}
+div.content_zone div.content table.tv_issues {width:100%;}
+div.content_zone div.content table.tv_issues td {width:20%; text-align:left; vertical-align:top; padding-bottom:30px;}
+div.content_zone div.content table.tv_issues td.month {padding:5px; font-weight:bold;}
+div.content_zone div.content table.publishing {width:100%;}
+div.content_zone div.content table.publishing td {text-align:left; vertical-align:top; padding-bottom:20px;}
+div.content_zone div.content table.art_linkage {width:99%; padding:0; border:0;}
+div.content_zone div.content table.art_linkage th {text-align:left; vertical-align:top; width:33%; font-weight:bold;}
+div.content_zone div.content table.art_linkage td {text-align:left; vertical-align:top; width:33%;}
+div.content_zone div.content table.art_linkage td ul {padding:0px 0px 0px 15px; margin:0px;}
+div.content_zone div.content table.art_linkage td ul li {padding:0px 0px 5px 0px; margin:0px;}
+div.content_zone div.content span.map_country {background-image:url('/img/srv/ico_map.gif'); background-repeat:no-repeat; background-position: left center; padding:7px 0px 7px 30px;}
+
+div.undercontent_zone {font-size:83%; padding:15px 0px 0px; margin:15px 0px 0px; border-top:1px solid #999999;}
+div.undercontent_zone table.link_columns {width:99%; border:0px;}
+div.undercontent_zone table.link_columns td {width:33%; vertical-align:top;}
+div.undercontent_zone table.link_columns td li.nnn_list_item_title {list-style-position:inside; padding:5px 0px 0px 0px; margin:0px;}
+div.undercontent_zone table.link_columns table.news_column th {font-weight:bold; padding-bottom:5px; text-align:left;}
+div.undercontent_zone table.link_columns table.news_column td {padding-bottom:7px;}
+
+/* Search results page */
+div.content_zone form.search_form {padding:0px; margin:0px 0px 10px;}
+div.content_zone form.search_form table {width:100%;}
+div.content_zone form.search_form table td {padding-right:10px;}
+div.content_zone form.search_form table td input.text_field {width:100%;}
+div.content_zone div.search_results div.refblock {margin:0 40px 10px 40px; font-size: 70%; color: #202020;}
+div.content_zone div.search_results div.refblock a {color: #202020;}
+div.content_zone div.search_results ol.results {margin:0 40px 1.7em 40px; padding:0 0 0 40px}
+div.content_zone div.search_results ol.results li {margin-bottom:1em; padding:0;}
+div.content_zone div.search_results ol.results div.text {font-size:80%; padding-bottom:0.1em;}
+div.content_zone div.search_results ol.results div.info {font-size:80%; color:#333333; margin-top:0.3em;}
+div.content_zone div.search_results ol.results div.info a {color:#000000;}
+div.content_zone div.search_results ol.results div.info a:visited {color:#800080;}
+div.content_zone div.search_results ol.results div.info span.green {color: #006600;}
+div.content_zone div.search_results div.pages {padding:0 40px 1.5em 40px;}
+div.content_zone div.search_results div.pages b {font-size: 80%}
+div.content_zone div.search_results div.pages span.active {background-color: #E8E9EC; padding: 0 0.3em;}
+div.content_zone div.search_results div.pages div.arrows a {color: #333333}
+div.content_zone div.search_results div.pages div.arrows span {font-size: 130%}
+div.content_zone div.search_results div.pages div.arrows {padding: 0.2em 40px; font-size: 70%; color: #333333}
+div.content_zone div.search_results div.pages div.sort {padding: 0.5em 40px 0.2em 40px; font-size: 70%}
+div.content_zone div.search_results div.pages div.numbers {padding: 0.2em 40px; font-size: 80%; font-weight: bold}
+div.content_zone div.search_results div.pages div.numbers a, div.pages div.sort a {padding: 0 0.3em}
+div.content_zone div.search_results table.footer {border-top:1px solid #C5C8D0;}
+div.content_zone div.search_results table.footer td {font-size:70%;}
+div.content_zone div.search_results table.footer div.copyright {margin-top:10px; margin-right:10px; padding-left:0px !important;}
+
+div.content_zone div.photo_content {font-size:83%; width:100%;}
+
+div.content_zone table.guides_archive {width:100%; font-size:76%;}
+div.content_zone table.guides_archive td {width:50%; text-align:left; vertical-align:top; padding:0px 30px 20px 0px;}
+div.content_zone table.guides_archive td img {margin-right:10px;}
+
+div.content_zone table.polden_archive {width:100%; font-size:76%;}
+div.content_zone table.polden_archive td {width:50%; text-align:left; vertical-align:top; padding:0px 30px 20px 0px;}
+div.content_zone table.polden_archive td img {margin-right:10px;}
+
+div.content_zone div.chrono {font-size:89%; margin-bottom:20px;}
+div.content_zone div.chrono table {width:auto;}
+div.content_zone div.chrono table td {text-align:left; vertical-align:middle; padding:0px 5px 7px 0px;}
+div.content_zone div.chrono table td a {color:black; text-decoration:none; border-left:3px #FFFFFF solid; border-right:3px #FFFFFF solid;}
+div.content_zone div.chrono table td a:visited {text-decoration:none;}
+div.content_zone div.chrono table td a:hover {text-decoration:none; background:#CC3333; color:#FFFFFF; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+div.content_zone div.chrono table td a.arrow:hover {text-decoration:none; background:#FFFFFF; color:#CC3333; border-left:3px #FFFFFF solid; border-right:3px #FFFFFF solid;}
+div.content_zone div.chrono table td.month {font-weight:normal; text-align:center; padding:5px 0px 15px;}
+div.content_zone div.chrono table td.current a {color:#FFFFFF; background:#CC3333; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+
+div.content_zone table.chrono_events td {text-align:left; vertical-align:top; padding:10px; font-size:89%; background-color:#FEFEFE;}
+div.content_zone table.chrono_events td.year {font-size:108%; font-weight:bold; white-space:nowrap;}
+div.content_zone table.chrono_events td a {color:black; text-decoration:none;}
+div.content_zone table.chrono_events td a:hover {color:red; text-decoration:underline;}
+div.content_zone table.chrono_events tr.dark td {background-color:#F8F8F8;}
+
+div.content_zone div.forum_form {font-size:89%; padding:10px 0px 10px; border-top:1px solid #999999;}
+div.content_zone div.forum_form a.forum_form_switcher {font-size:86%;}
+div.content_zone div.forum_form table {margin:10px 0px 0px 0px; width:600px;}
+div.content_zone div.forum_form table td {padding:0px 0px 5px 0px; vertical-align:top;}
+div.content_zone div.forum_form table td textarea {width:600px;}
+
+div.content_zone div.reflink_descr {font-size:70%; padding:10px 0px 10px; border-top:1px solid #999999;}
+div.content_zone div.reflink {font-size:70%; padding:10px; font-family:"Courier New",Courier,monospace; background-color:#CCCCCC;}
+
+/* ===========================/Content zone styles =========================== */
+
+/* =========================== Announces listings styles ======================= */
+div.announces_list {font-size:76%;}
+table.announces_lines td {padding-top:10px; vertical-align:top;}
+
+img.pic {margin:3px 10px 0px 0px;}
+img.tv_pic {border:#CCCCCC 3px solid; margin:0px 15px 10px 0px;}
+img.guides_pic {border:#CCCCCC 3px solid; margin:0px 15px 10px 0px;}
+img.polden_pic {border:#CCCCCC 3px solid; margin:0px 15px 10px 0px;}
+img.framepic {border:#CCCCCC 5px solid; margin:0px 15px 10px 0px;}
+div.right_block {float:right; display:block; margin-bottom:15px; margin-left:30px; text-align:right; font-size:83%;}
+div.right_block a.print_link {background-image:url('/img/srv/ico_printable.gif'); background-position: left center; background-repeat: no-repeat; padding-left:20px;}
+div.cols_list {font-size:76%; margin-top:20px;}
+div.cols_list table {width:100%;}
+div.cols_list table td {text-align:left; vertical-align:top; padding:5px;}
+div.cols_list table td ul {padding:0px 0px 0px 15px; margin:0px;}
+div.cols_list table td ul li {padding:0px 0px 2px 0px; margin:0px;}
+div.cols_list table td.column {font-weight:bold; background:#F0F0F0;}
+a.quart_heading {text-transform:uppercase;}
+a.quart_title {font-weight:bold;}
+div.quart_announce {text-align:left; padding-top:3px;}
+div.quart_announce a {color:black; text-decoration:none;}
+div.quart_announce a:hover {color: red; text-decoration:underline;}
+span.announce_block a {color:black; text-decoration:none;}
+span.announce_block a:hover {color: red; text-decoration:underline;}
+div.auth_date {padding:5px 0px 10px;}
+
+div.errors_block {color:#FF0000;}
+/* ===========================/Announces listings styles ======================= */
+
+div.content_zone ul.list {font-size:89%; padding:10px 0px 0px 15px; margin:0;}
+div.content_zone ul.list li {padding:0px 0px 5px 0px; margin:0;}
+div.content_zone div.search {margin:20px 0px 20px 0px;}
+div.content_zone div.search input.query {font-family:Tahoma,sans-serif; font-size:70%; border:1px solid black; color:#333333; width:200px;}
+div.content_zone div.search table td {vertical-align:middle; text-align:left; padding-bottom:20px;}
+div.content_zone div.search table td.button {padding-left:5px;}
+div.content_zone div.search table td a {font-size:70%; text-decoration:none;}
+div.content_zone div.search table td a:hover {text-decoration:underline;}
+
+div.content_zone table.authors_list {width:99%; padding-top:10px;}
+div.content_zone table.authors_list td {padding-right:20px; width:33%; text-align:left; vertical-align:top;}
+div.content_zone table.authors_list td ul {padding:0px 0px 0px 15px; margin:0px;}
+div.content_zone table.authors_list td ul li {padding:0px 0px 5px 0px; margin:0px;}
+div.content_zone table.news_list {width:100%; padding-top:10px;}
+div.content_zone table.news_list td {padding-bottom:10px; text-align:left; vertical-align:top;}
+div.content_zone table.news_list td a.announce {text-decoration:none; color:#000000;}
+div.content_zone table.news_list td a.announce:hover {text-decoration:underline; color:#FF0000;}
+img.pic {margin:3px 10px 0px 0px;}
+
+div.company_news {float:right; width:190px; margin-left:10px; padding:5px 5px 10px 10px; font-family:Tahoma, sans-serif; font-size:11px; border-left:#CCCCCC 1px solid; border-bottom:#CCCCCC 1px solid; border-top:#CCCCCC 1px solid;}
+table.new_blocks td {padding-bottom:10px;}
+table.new_blocks td.news_block_title {font-weight:bold; font-size:20px; font-family:Arial, Helvetica, sans-serif;}
+a.new_title {font-style:italic; font-weight:bold;}
+a.new_announce {color:black; text-decoration:none;}
+a.new_announce:hover {color:red; text-decoration:underline;}
+
+/* Special intercontent element styles */
+table.digits {padding-top:15px; font-size:89%;}
+table.digits td {font-weight:bold; text-align:left; padding:0px 2px 0px;}
+table.digits td.title {padding-right:15px;}
+table.digits td.current {padding:0px 5px 0px;}
+table.digits td a {text-decoration:none; border-left:3px #FFFFFF solid; border-right:3px #FFFFFF solid;}
+table.digits td a:visited {text-decoration:none;}
+table.digits td a:hover {text-decoration:none; background:#CC3333; color:#FFFFFF; border-left:3px #CC3333 solid; border-right:3px #CC3333 solid;}
+div.tabs {width:100%; vertical-align:bottom; margin:20px 0px 0px 0px;}
+div.tabs table td {width:120px; background-image:url('/img/srv/tab_inactive.gif'); background-position:left bottom; background-repeat:no-repeat; text-align:center; vertical-align:bottom; line-height:20px; font-size:12px;}
+div.tabs table td a {text-decoration:none;}
+div.tabs table td a:hover {text-decoration:underline;}
+div.tabs table td.active {background-image:url('/img/srv/tab_active.gif');}
+div.tabs table td.active a {color:#FFFFFF;}
+div.tabs table td.div {width:5px; background-image:none;}
+iframe.articles_list {border-top:3px solid #A02226; border-bottom:1px solid #A02226; border-left:1px solid #A02226; border-right:1px solid #A02226; width:100%; height:700px;}
+
+/* Right column styles */
+td.right_column {width:240px; padding-top:2px; vertical-align:top; text-align:right; background:#F8F8F8;}
+td.right_column div.links {font-size:83%; font-weight:bold; background-color:#F8F8F8; padding-left:10px; padding-top:10px; text-align:left;}
+td.right_column_bottom {width:240px; vertical-align:bottom; text-align:right; font-size:83%; background:#F8F8F8;}
+td.right_column_bottom div {padding:10px 10px 10px 20px; text-align:left; background:#F8F8F8;}
+
+/* Footer styles */
+td.footer {background:#F8F8E8; border-collapse:collapse; border-top:1px solid #000000; padding:10px 10px 10px 10px; text-align:left; vertical-align:top; font-family:Arial, sans-serif;}
+td.footer div {margin-bottom:10px; font-size:83%; color:#666666;}
+td.footer div.ad_links {margin:10px 0px 0px 0px; font-size:58%; color:#000000;}
+td.footer div.ad_links a {color:#000000;}
+td.footer div.ad_links a:hover {color:red;}
+
+/* Sitemap styles */
+div.sitemap a {line-height:20px;}
+
+/* Shop elements styles */
+a.shop_link {background-image:url('/img/srv/basket.gif'); background-position:left center; background-repeat:no-repeat; padding:0px 0px 0px 18px; font-size:12px;}
+
+/* Question submitting form */
+.request_question h2 {font-size:121% !important;}
+.request_question table {font-size:89%;}
+.request_question table tr td {padding:0px 10px 5px 0px;}
+.request_question .info {font-size:70%; padding-top:10px;}
+.request_question .list_link {font-size:76%; padding-top:15px;}
+.request_question .request {width:235px;}
+.request_question .code {width:50px;}
+
+/* News calendar styles */
+.clnd_year {width:100%; margin:20px; cellspasing:0; cellpadding:0;}
+.clnd_month {float:left; margin:0 10px 10px 0; border:1px solid #FFCC33; width:120px; text-align:center;}
+.clnd_month td {font-size: 11px; width:20px; border:1px solid #F8F8E8;}
+.clnd_month td.clnd_name {background-color:#F8F8E8;}

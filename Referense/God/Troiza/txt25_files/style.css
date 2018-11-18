@@ -1,0 +1,36 @@
+A:link{color:#645000;text-decoration:none}
+A:active{color:#8000FF;text-decoration:underline}
+A:visited{color:#645000;text-decoration:none}
+A:hover{color:#8000FF;text-decoration:underline}
+
+BODY{
+margin-left:10%;margin-right:10%;font-family:Arial,Helvetica,sans-serif;
+color:#000;background:url(000/manu.gif) #DCA;text-align:justify}
+
+P.censm{text-align:center;font-size:90%}
+P.fn{font-size:80%}
+BLOCKQUOTE,UL.ref,P.sm,TH.sm,TD.sm{font-size:90%}
+BLOCKQUOTE.ver{margin-left:8em}
+OL.ogl{text-align:left}
+
+IMG.1{width=16px;height=14px;margin-left:8px;margin-right:8px}
+
+H1,H1.mid,H2.h,H3.h,H3.ab{text-align:center;margin:0}
+
+H1,H1.mid,H2.h{font-family:"Times New Roman",Times,serif;color:#006}
+
+H1{font:24pt}
+
+H1.mid{font:20pt}
+
+H2{color:#645000}
+
+H3.ab{color:#006}
+
+H2,H3,H4{text-align:center}
+
+H2{font-family:"Times New Roman",Times,serif}
+
+H2,H3,H3.h{font-weight:normal}
+
+H1,H1.mid,H2.h,OL.ogl,DT{font-weight:bold}

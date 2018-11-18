@@ -1,0 +1,46 @@
+.sim {
+	FONT-FAMILY:  Arial, Helvetica, sans-serif; 
+font : bold  18px Arial, Helvetica, sans-serif;
+COLOR: red;
+}
+
+                   A:link {
+                      TEXT-DECORATION: none;
+                     background-color : transparent;
+			 font : bold  13px Arial, Helvetica, sans-serif;
+                     }
+                     A:hover {
+                     COLOR: blue; TEXT-DECORATION: underline;
+                     }
+                     A:active {
+                     COLOR: red;
+                     TEXT-DECORATION: underline;
+                     background : grey;
+                     }
+                     A:visited {
+	               TEXT-DECORATION: none;
+			COLOR: #012497; 
+                     }
+                     .category {
+					  background-color : transparent;
+                     MARGIN-BOTTOM: 0em;
+                     MARGIN-TOP: 0.5em;
+                     font : normal  18px Arial, Helvetica, sans-serif;
+                     
+                     }
+                     .links {
+                     background-color : transparent;
+			COLOR: black;
+                     MARGIN-BOTTOM: 0em;
+                     MARGIN-TOP: 0em;
+                     PADDING-LEFT: 2em;
+                     TEXT-INDENT: -1em;
+			font : bold  13px Arial, Helvetica, sans-serif;
+                      }
+                     .links2 {
+                     background-color : transparent;
+                     MARGIN-BOTTOM: 0em;
+                     MARGIN-TOP: 0em;
+                     PADDING-LEFT: 4em;
+                     TEXT-INDENT: -1em;
+                      font : bold  12px Arial, Helvetica, sans-serif;}

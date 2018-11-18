@@ -1,0 +1,25 @@
+A:link{color:#645000;text-decoration:none}
+A:active{color:#8000FF;text-decoration:underline}
+A:visited{color:#645000;text-decoration:none}
+A:hover{color:#8000FF;text-decoration:underline}
+
+BODY{color:#000;background:url(000/manu.gif) #DCA;
+margin-left:10%;margin-right:10%;text-align:justify}
+BODY,P,A,TD,TH,OL,UL,H3,H4,FONT{font-family:Arial,Helvetica,sans-serif}
+
+IMG.1{width=16px;height=14px;margin-left:8px;margin-right:8px}
+
+H1,H2,H2.h,I{font-family:"Times New Roman",Times,serif}
+BLOCKQUOTE,TD{font-size:90%}
+
+H1,H2.h,H3.h,H3.ab,H5,H6{text-align:center;margin:0}
+H2,H3,H4,P.csm,P.ris{text-align:center}
+OL.ogl{text-align:left}
+
+H1,H2.h,H3.ab{color:#006}
+H2{color:#645000}
+
+I{font-size:120%}
+
+H1,H2.h,OL.ogl{font-weight:bold}
+H2,H3,H3.h,H5,H6{font-weight:normal}

@@ -1,0 +1,42 @@
+.whead{
+background-color: transparent;
+font : bolder  18px Arial, Helvetica, sans-serif;
+color : Blue;
+text-align : center;
+}
+.w1text {
+	TEXT-DECORATION: none;
+	background-color : #ecfff1;
+	font : normal 14px Arial, Helvetica, sans-serif;
+	color : #000099;
+}
+.w2text {
+TEXT-DECORATION: none;
+background-color : #dafeec;
+font : normal 14px Arial, Helvetica, sans-serif;
+color : black;
+}
+.w1brown {
+	TEXT-DECORATION: none;
+	background-color : #ffefdf;
+	font : normal 14px Arial, Helvetica, sans-serif;
+	color : #000099;
+}
+.w2brown {
+TEXT-DECORATION: none;
+background-color : #ffe7ce;
+font : normal 14px Arial, Helvetica, sans-serif;
+color : black;
+}
+.wmenu {
+TEXT-DECORATION: none;
+background-color : #ccffff;
+font : normal 14px Arial, Helvetica, sans-serif;
+color : Black;
+}
+.w3text {
+TEXT-DECORATION: none;
+background-color : #ffeedd;
+font : bold 14px Arial, Helvetica, sans-serif;
+color : #660000;
+}

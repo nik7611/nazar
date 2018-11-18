@@ -1,0 +1,1 @@
+document.write('<a href="http://banner.kiev.ua/cgi-bin/bg.cgi\x3F53502&1913398031&0&0&89710&" target=_blank>Ваша реклама в Интернет. </a>');

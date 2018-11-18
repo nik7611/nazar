@@ -1,0 +1,50 @@
+A {
+	TEXT-DECORATION: none;
+}
+.left {COLOR: #003300}
+.body {COLOR: #000033}
+
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+
+A:link {
+	TEXT-DECORATION: none; color:084C7C
+}
+
+A:hover {
+	 TEXT-DECORATION: underline; COLOR: black
+}
+
+
+TD {
+	FONT: 81% verdana,arial,helvetica
+}
+.tit
+ {
+	FONT: bold 12px verdana,arial,helvetica;
+	color:#402261;
+}
+
+.cop
+ {
+	FONT: 12px verdana,arial,helvetica;
+}
+
+h4 {
+ color:286C9C
+}
+
+h3 {
+ color:286C9C
+}
+h2 {
+ color:286C9C
+}
+
+body {
+	FONT: 81% verdana,arial,helvetica
+}

@@ -1,0 +1,252 @@
+dir, .dir, .dir:hover, dir:hover{
+        color: #9BC873;
+        font: 14pt Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+        text-decoration:none;
+        margin:0px;
+        padding:0px;
+}
+
+.text_title{
+        color: #9BC873;
+        font: 18pt sans-serif, Helvetica, Verdana, Arial;
+        font-weight:bold;
+        text-decoration: underline;
+}
+
+p.text_title{
+	qdisplay: inline;
+}
+
+h1,h2,h3,h4,h5,h6,h1:hover,h2:hover,h3:hover,h4:hover{
+	display: inline;
+        font-weight:bold;
+}
+
+.preamble,.preamble_auth{
+        color: #555555;
+        font: 9pt Times, "Times New Roman", Verdana, Arial, sans-serif;
+	font-style:italic;
+        margin-left:10px;
+        padding-left:0px;
+}
+
+.preamble_auth{
+        font-size: 10pt;
+        font-weight:bold;
+        margin-left:60px;
+}
+
+blockquote{
+}
+
+ul,li{
+                margin:0px;
+                padding:0px;
+     list-style-image: url(http://www.hive.kiev.ua/lib/marker.gif);
+}
+
+ul {
+     list-style-position: inside;
+     padding: 0px;
+     margin: 0px;
+     display:inline;
+}
+
+.table_head .start{
+	background-color:#DDD2B7;
+        font: 8pt Verdana, Arial, sans-serif, Helvetica;
+	font-style:italic;
+}
+
+.table_head .logo{
+        font: 16pt Verdana, Arial, sans-serif, Helvetica;
+        font-weight:bold;
+}
+
+.table_head .menu{
+        font: 9pt sans-serif, Helvetica, Verdana, Arial;
+        font-weight:bold;
+}
+
+.table_head2{
+	border-top:1px solid #473508;
+	border-bottom:1px solid #473508;
+}
+
+.table_head3{
+        background-color:#DDD2B7;
+	border-bottom:1px solid #473508;
+        font: 8pt sans-serif, Helvetica, Verdana, Arial;
+}
+
+.table_head3 td{
+        font: 8pt sans-serif, Helvetica, Verdana, Arial;
+}
+
+.table_head3 select,.table_head3 input,.table_head3 option,.table_head3 btn{
+        font: 8pt sans-serif, Helvetica, Verdana, Arial;
+}
+
+.table_head3 btn,.table_head3 input{
+	width:25px;
+}
+
+.table_head3 select,.table_head3 input{
+	display:inline;
+	border:0px;
+}
+
+.dopheader{
+	display:inline;
+}
+
+.datecolor{
+        color: #9BC873;
+}
+
+.datecolor15{
+        color: green;
+}
+
+.datecolor30{
+        color: silver;
+}
+
+.datecolor45{
+        color: #eed011;
+}
+
+pre{
+}
+
+
+.advertising{
+        margin: 3px;
+	float: right;
+        font: 8pt Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.solidborder{
+ 	border:1px solid #9BC873;
+}
+
+.fixwidth {
+      overflow: auto;
+      width: 160px;
+}
+
+.StripDirMenu,.StripDirMenu:hover{
+        font: 8pt sans-serif, Helvetica, Verdana, Arial;
+        font-weight:bold;
+}
+
+font{
+	color: #473508;
+}
+
+.banner_control,.banner_control:hover{
+        font: 8pt sans-serif, Helvetica, Verdana, Arial;
+/*        color: #9BC873;*/
+	color: #473508;
+}
+
+.txtfont8{
+        font-size: 8pt;
+}
+
+.txtfont10{
+        font-size: 10pt;
+}
+
+.txtfont14{
+        font-size: 14pt;
+}
+
+.txtfont16{
+        font-size: 16pt;
+}
+
+
+.txtfont18{
+        font-size: 18pt;
+}
+
+.txtfont22{
+        font-size: 22pt;
+}
+
+.ctrlfont{
+        font-weight:default;
+	background-color:#DDD2B7;
+ 	border:0px;
+        padding:0px;
+}
+
+.ctrlfontactive{
+        font-weight:bold;
+	background-color:#FFF4D9;
+ 	border:1px solid #9BC873;
+        padding:0px;
+}
+
+.imgdesc{
+ 	border:2px double #9BC873;
+}
+
+.chord{
+        font-weight:bold;
+        color: #9BC873;
+}
+
+.new{
+        color: #FFFFFF;
+	background-color:#9BC873;
+}
+
+.destination_path td,.destination_path td a,.destination_path td a:hover{
+        font: 9pt Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+        font-weight:bold;
+        color: #9BC873;
+}
+
+.destination_path td a:hover{
+        color: #6D8D51;
+}
+
+.destination_path td.destcur{ 
+        text-decoration: underline;
+}
+
+p.text_title:first-letter , .destination_path td:first-letter , .destination_path a:first-letter {
+        color: #6D8D51;
+        text-transform:uppercase;
+}
+
+.backlink{
+        color: #B57500;
+}
+
+.sign{
+        font: 8pt Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	text-align:right;
+}
+
+.seealso,.seealso a{
+        font: 10pt Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+table.marketgid td table{
+ border-spacing:0;
+ border-collapse:collapse;
+}
+
+#rdminfrm_12406 li{
+}
+
+#rdminfrm_12406 div,.rdm_title_12406{
+ display:inline;
+}
+
+.mirage{
+ display: none;
+}
